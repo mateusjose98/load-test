@@ -19,7 +19,7 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/comentariosdb
       SPRING_DATASOURCE_USERNAME: user
       SPRING_DATASOURCE_PASSWORD: pass
-      JAVA_TOOL_OPTIONS: "-XX:MaxRAM=800m -XX:+UseContainerSupport -XshowSettings:vm"
+      JAVA_TOOL_OPTIONS: "-XX:MaxRAM=800m -XX:+UseContainerSupport"
     ports:
       - "8080:8080"
 
